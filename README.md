@@ -12,8 +12,8 @@
   - [Database](#database)
 - ["I can't do everything this project is asking"](#i-cant-do-everything-this-project-is-asking)
 - ["I can do more than this!"](#i-can-do-more-than-this)
-- [AI](#ai)
-- [Submission](#submission)
+- ["Can I use AI?"](#can-i-use-ai)
+- [Submitting Your Work](#submitting-your-work)
 
 We've selected this project because, despite its small size, it hits all the major aspects of our curriculum:
 
@@ -43,7 +43,7 @@ It's true that Marcy has a specific stack that we teach, but we aren't requiring
 
 OR
 
-- You build a fullstack, SSR application that connects to a DB
+- You build a full-stack, SSR application that connects to a DB
 
 So you could build this project with React (or vanilla JS), Express, and Postgres and host both your JSON routes and static assets from a single server (marcy's Stack). HOWEVER! You could use a server for your frontend, and another for your backend. Maybe it's all Ruby on Rails! MongoDB anyone?
 
@@ -59,7 +59,7 @@ This is not a css challenge. CSS is not super hard to pick up, but it certainly 
 <style>
   img { height: 15rem; }
   sup { color: red; }
-  form, ul { display: flex; gap: 1rem; padding: 1rem; border: .1rem solid #000; }
+  form, ul { display: flex; gap: 1rem; padding: 1rem; border: 0.1rem solid #000; }
   form { flex-direction: column; width: fit-content; }
   #pet-list { flex-wrap: wrap; list-style: none; }
 </style>
@@ -68,7 +68,6 @@ This is not a css challenge. CSS is not super hard to pick up, but it certainly 
 ## Client Rendering
 You may handwrite your HTML, generate it with JS, or use a template system, but the final client output must hit these requirements:
 
-- [ ] You must update the `title` of the page to "Application Submission"
 - [ ] There is a heading that says "Pet Tracker"
 - [ ] There is a form on the page
   - [ ] There is a text input for the pet name
@@ -83,9 +82,9 @@ You may handwrite your HTML, generate it with JS, or use a template system, but 
   - [ ] There is a checkbox input with a label of "Are they friendly?"
   - [ ] There is a submit button that says "Add Pet!"
   - [ ] The name, profile picture, and species are all HTML required fields
-  - [ ] The required fields have a red asterisk in their labels
+  - [ ] The required fields have an asterisk in their labels
   - [ ] All field values are empty on page load
-- [ ] There is another heading that say "Pet List"
+- [ ] There is another heading that says "Pet List"
 - [ ] There is a list of all the pets
   - [ ] Each pet is organized into some kind of a card
   - [ ] Each pet has a name
@@ -106,7 +105,6 @@ You may handwrite your HTML, generate it with JS, or use a template system, but 
 At Marcy we are extremely passionate about an open and accessible web. There are some basic accessibility requirements that we'd like you to hit:
 
 - [ ] The `main` tag is used correctly
-- [ ] Headings are used in the appropriate places on the page
 - [ ] Heading are also in the right order
 - [ ] Every label is properly associated with its input
 - [ ] Semantic tags are used to properly display all the pets
@@ -125,6 +123,8 @@ As this technique is part of the Marcy curriculum, if you know how to make one, 
 - [ ] The response of the route that adds a new pet is the new pet data
 
 ## Database
+No matter your server configuaration, here are the requirements for the database:
+
 - [ ] The data is persisted in a database of some kind
 - [ ] There is a query that returns all the pets
 - [ ] There is a query that adds a new pet
@@ -134,7 +134,7 @@ As this technique is part of the Marcy curriculum, if you know how to make one, 
   - e.g. a query or migration file I can run if you're using SQL
 
 # "I can't do everything this project is asking"
-This is a simple fullstack application, and we are a fullstack program. We hope that you have at least some experience with all the the requirements listed above.
+This is a simple full-stack application, and we are a full-stack program. We hope that you have at least some experience with all the the requirements listed above.
 
 However, this is only one part of your application. So, if you have to substitute a section to get the project working, that is alright, provided you do it correctly. Here are the fallback configurations for this project:
 
@@ -146,13 +146,13 @@ That is great to hear but ***please do not***. Complete the given requirements w
 
 This project is about seeing that you understand the core concepts, not that you handle every edge case or add bonus features.
 
-# AI
-Use it with discretion. Of course its a wonderful tool, but we will be going over your code during our live interview, and if it's clear you can't explain what the robot wrote, that's not going to be a good look. Make sure you understand what your code is doing.
+# "Can I use AI?"
+Use it with discretion. Of course it's a wonderful tool, but we will be going over your code during our live interview, and if it's clear you can't explain what the robot wrote, that's not going to be a good look. Make sure you understand what your code is doing.
 
 > A partially complete project you fully understand is 100x better than a complete project that you can't explain.
 
-# Submission
-Please create new GitHub repo or repos for this challenge. Do not fork this repo, we don't want other applicants to see each other's work. When you're done, please email us the links to your work as outlined in your email. **THERE IS NO NEED TO DEPLOY YOUR APP.** I'm simply going to clone your work and run it locally to test it.
+# Submitting Your Work
+Please create a new GitHub repo or repos for this challenge. Do not fork this repo, we don't want other applicants to see each other's work. When you're done, please email us the links to your work as outlined in your email. **THERE IS NO NEED TO DEPLOY YOUR APP.** I'm simply going to clone your work and run it locally to test it.
 
 If you use a non Node and SQL based stack, I would appreciate some information in a README that tells me how I can actually run your project. We will also ask you to run your project during your onsite interview process so we can talk to you about it.
 
